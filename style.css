@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projecten{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
