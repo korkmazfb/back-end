@@ -36,6 +36,9 @@ $place = $statement->fetch(PDO::FETCH_ASSOC);
         <h1 class="header"><?php echo $place['titel']?></h1>
         <figure><img src="img/<?php echo $place['foto']?>" alt="" width="700px" height="500px"></figure>
         <p class="p"><?php echo $place['info']?></p>
+        <a href="contact.php">Neem contact op</a>
+        <hr>
+        <a href="index.php">terug naar overzicht</a>
 
         
 
